@@ -1,0 +1,31 @@
+.contenedor{
+    text-align: center;
+    }
+
+.solido{
+        width: 150px;
+    height: 40px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;}
+.discontinuo{
+    width: 150px;
+    height: 40px;
+    border-color: black;
+    border-width: 5px;
+    border-style: dashed;
+}
+.punteado{
+    width: 150px;
+    height: 40px;
+    border-color: black;
+    border-width: 5px;
+    border-style: dotted;
+}
+.doble{
+    width: 150px;
+    height: 40px;
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+}

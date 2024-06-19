@@ -1,0 +1,11 @@
+body {
+    background-color: red;
+    color: white;
+}
+hr{
+    width: 1500px;
+}
+div{
+    border-radius: 15px;
+    background-color: darkgrey;
+}
