@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10;
+}
+
+li {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+li.fruta::before {
+    content: "•";
+    color: green;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+li.vegetal::before {
+    content: "•";
+    color: orange;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fruta {
+    color: green;
+}
+
+.vegetal {
+    color: orange;
+}

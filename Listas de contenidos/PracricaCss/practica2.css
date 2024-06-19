@@ -3,12 +3,16 @@
     }
 
 .solido{
-        width: 150px;
+    margin: 20px;
+    float: left;
+    width: 150px;
     height: 40px;
     border-color: black;
     border-width: 5px;
     border-style: solid;}
 .discontinuo{
+    margin: 20px;
+    float: left;
     width: 150px;
     height: 40px;
     border-color: black;
@@ -16,6 +20,8 @@
     border-style: dashed;
 }
 .punteado{
+    margin: 20px;
+    float: left;
     width: 150px;
     height: 40px;
     border-color: black;
@@ -23,6 +29,8 @@
     border-style: dotted;
 }
 .doble{
+    margin: 20px;
+    float: left;
     width: 150px;
     height: 40px;
     border-color: black;

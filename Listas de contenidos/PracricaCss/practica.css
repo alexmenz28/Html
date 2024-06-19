@@ -6,6 +6,12 @@ hr{
     width: 1500px;
 }
 div{
+    
     border-radius: 15px;
+    width: 1450px;
+    height: 150px;
     background-color: darkgrey;
+}
+.titulo{
+    color: chartreuse;
 }

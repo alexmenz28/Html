@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: red;
+}
+
+h2 {
+    font-size: 20px;
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.flex-item {
+    background-color: green;
+    color: white;
+    font-size: 100px;
+    width: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
