@@ -16,7 +16,6 @@ h2 {
     display: flex;
     justify-content: space-around;
     background-color: blue;
-    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -25,8 +24,7 @@ h2 {
     color: white;
     font-size: 18px;
     text-align: center;
-    padding: 10px;
-    flex: 1;
+    padding: 20px;
     margin: 0 10px;
 }
 
