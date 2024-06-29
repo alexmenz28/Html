@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Copa Sudamericana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Copa Sudamericana</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#jugadores">Jugadores</a></li>
+                <li><a href="#estadios">Estadios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenidos a la Final de la Copa Sudamericana</h1>
+        </div>
+    </section>
+
+    <section id="jugadores" class="section">
+        <h2>Jugadores Destacados</h2>
+        <div class="gallery">
+            <img src="/recursos/jugador1.jpg" alt="Jugador 1">
+            <img src="/recursos/jugador1.jpg" alt="Jugador 2">
+            <img src="/recursos/jugador1.jpg" alt="Jugador 3">
+        </div>
+    </section>
+
+    <section id="estadios" class="section">
+        <h2>Estadios</h2>
+        <div class="gallery">
+            <img src="/recursos/estadio.jpg" alt="Estadio 1">
+            <img src="/recursos/estadio.jpg" alt="Estadio 2">
+            <img src="/recursos/estadio.jpg" alt="Estadio 3">
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Final Copa Sudamericana. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
